@@ -18,7 +18,7 @@ Also have a look at the [offical documentation](https://tooreht.github.io/django
 
 1. Create a virtualenv:
 
-        pip -m venv venv
+        python -m venv venv
 
 1. Activate the virtualenv:
 
@@ -37,6 +37,14 @@ Also have a look at the [offical documentation](https://tooreht.github.io/django
 1. Navigate to the example_project:
 
         cd example_project
+
+1. Apply migrations
+
+        python manage.py migrate
+
+1. Create superuser for Django Admin
+
+        python manage.py createsuperuser
 
 1. Start the Django dev server:
 

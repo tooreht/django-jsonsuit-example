@@ -48,3 +48,9 @@ site/
 
 # virtual environments
 venv/
+
+# pyenv
+.python-version
+
+# SQLite
+db.sqlite3

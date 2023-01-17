@@ -1,3 +1,4 @@
 Django
 django-jsonsuit
 # -e ../django-jsonsuit
+requests
